@@ -1,0 +1,21 @@
+input {
+    width: 90%;
+    height: 6vh;
+    background-color: #ffffff;
+    border: 2px solid blue;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    margin-left: 20px;
+}
+
+.col-lg-7 {
+    background-image: url('https://github.com/MosesOpiyo/housing_front/blob/master/src/assets/images&videos/pexels-binyamin-mellish-106399.jpg?raw=true');
+    background-position: center;
+    background-size: cover;
+}
+
+button {
+    width: 120px;
+    margin-bottom: 20px;
+    margin-left: 22px;
+}
