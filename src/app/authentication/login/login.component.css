@@ -8,6 +8,10 @@ input {
     margin-left: 20px;
 }
 
+.col-lg-7 {
+    background: url(/housing/src/assets/images&videos/pexels-henry-5534746\ \(1\).mp4);
+}
+
 button {
     width: 120px;
     margin-bottom: 20px;
