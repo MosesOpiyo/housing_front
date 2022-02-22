@@ -24,10 +24,10 @@
                 <h2 class="clo-lg-5 text-center py-5">Log In</h2>
                 <p class="clo-lg-5 text-center py-2 ">Dont have an account? <a routerLink="/sign-up">Created an account</a></p>
                 <p class="clo-lg-5 text-center py-2 ">Takes less than one minute</p>
-                <form>
-                    <input id="email" name="email" placeholder="email" type="email" required>
+                <form #LoginForm='ngForm' (ngSubmit)="loginUser()">
+                    <input id="email" name="email" [(ngModel)]="email" placeholder="email" type="email" required>
                     <br>
-                    <input input id="password" name="password" placeholder="enter your password" class="form-control" type="password" required>
+                    <input input id="password" name="password" [(ngModel)]="password" placeholder="enter your password" class="form-control" type="password" required>
                     <br>
                     <button class="btn btn-succes" style="background-color: blue;color: white;border-radius: 5px;margin-left: 90px;" type="submit">Login</button>
 

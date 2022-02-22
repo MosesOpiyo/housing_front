@@ -23,4 +23,14 @@ export class AccountserviceService {
       console.log(error)
     })
   }
+  login(credentials:any){
+    this.http.post(`${environment.BASE_URL}users/login`,credentials).subscribe((res:any)=>{
+      sessionStorage.setItem('token', res['token'])
+      this.auth.authentication(true)
+      this.snackbar.open(`Welcome back`,"Dismiss")
+    },error=>{
+      this.snackbar.open(`There was a problem logging you in, please check your credentials and try again.`,"Dismiss",{duration:3000})
+      console.log(error)
+    })
+  }
 }
