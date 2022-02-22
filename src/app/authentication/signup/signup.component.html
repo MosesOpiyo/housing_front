@@ -15,7 +15,7 @@
         </div>
     </nav>
     <div class="container mt-5 pt-5">
-        <div class="row g-0" style="background-color: white;border-radius: 20px;height: 80vh;">
+        <div class="row g-0" style="background-color: white;border-radius: 20px;height: 60vh;">
             <div class="col-lg-7" style="background-color: blue;border-radius: 10px;">
                 <h3 style="margin: 20px;color: white;">Housing</h3>
                 <p style="margin: 20px;color: white;padding-top: 5px;">Lorem Ipsum is simply dummy text of the printing <br> and typesetting industry. Lorem Ipsum has been the industry's</p>
@@ -24,16 +24,14 @@
                 <h2 class="clo-lg-5 text-center py-5">Sign Up</h2>
                 <p class="clo-lg-5 text-center py-2 ">Have an account? <a routerLink="">Login</a></p>
                 <p class="clo-lg-5 text-center py-2 ">Welcome back</p>
-                <form>
-                    <input id="username" name="username" placeholder="username" type="username" required>
+                <form #registerForm='ngForm' (ngSubmit)="signUp()">
+                    <input type="text" id="username" [(ngModel)]="username" class="form-control" name="username" placeholder="username">
                     <br>
-                    <input id="email" name="email" placeholder="email" type="email" required>
+                    <input type="email" id="email" [(ngModel)]="email" class="form-control" name="email" placeholder="email">
                     <br>
-                    <input input id="password" name="password" placeholder="enter your password" class="form-control" type="password" required>
+                    <input type="password" id="password " [(ngModel)]="password" class="form-control" name="password" placeholder="password">
                     <br>
-                    <button class="btn btn-succes" style="background-color: blue;color: white;border-radius: 5px;margin-left: 90px;" type="submit">Sign up</button>
-
-
+                    <button style="background-color: blue;color: white;border-radius: 5px;margin-left: 90px;" class="btn btn-succes" type="submit ">Sign up</button>
                 </form>
             </div>
 
