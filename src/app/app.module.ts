@@ -9,6 +9,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule } from '@angular/forms';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
+import { HomepageComponent } from './UI/homepage/homepage.component';
+import { NavbarComponent } from './UI/navbar/navbar.component';
 
 
 @NgModule({
@@ -16,6 +18,8 @@ import { MatSnackBarModule } from '@angular/material/snack-bar';
     AppComponent,
     SignupComponent,
     LoginComponent,
+    HomepageComponent,
+    NavbarComponent,
    
   ],
   imports: [
