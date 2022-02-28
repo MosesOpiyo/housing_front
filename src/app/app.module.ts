@@ -11,6 +11,8 @@ import { FormsModule } from '@angular/forms';
 import { MatSnackBarModule } from '@angular/material/snack-bar';
 import { HomepageComponent } from './UI/homepage/homepage.component';
 import { NavbarComponent } from './UI/navbar/navbar.component';
+import { HouseTypesComponent } from './UI/homepage/sub-components/house-types/house-types.component';
+import { HouseCarosselComponent } from './UI/homepage/sub-components/house-carossel/house-carossel.component';
 
 
 @NgModule({
@@ -20,6 +22,8 @@ import { NavbarComponent } from './UI/navbar/navbar.component';
     LoginComponent,
     HomepageComponent,
     NavbarComponent,
+    HouseTypesComponent,
+    HouseCarosselComponent,
    
   ],
   imports: [
