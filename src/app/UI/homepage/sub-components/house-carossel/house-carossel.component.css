@@ -11,7 +11,15 @@
 
 .card h1 {
     font-size: 40px;
+    color: white;
+}
+
+.location {
     padding-top: 30%;
+    margin-left: 30px;
     padding-right: 68%;
+}
+
+.location h2 {
     color: white;
 }
