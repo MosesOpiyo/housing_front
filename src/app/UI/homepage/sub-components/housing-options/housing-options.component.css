@@ -1,0 +1,38 @@
+.container {
+    margin-top: 3%;
+}
+
+h2 {
+    margin-left: 45px;
+    font-size: 25px;
+}
+
+.house-details {
+    width: 100%;
+    margin-top: 45px;
+}
+
+h3 {
+    margin: 0;
+    font-size: 20px;
+}
+
+.small-details {
+    margin-top: 25px;
+}
+
+button {
+    border-radius: 20px;
+}
+
+.house-categories {
+    margin-top: 30px;
+}
+
+.house-categories {
+    margin-bottom: 20px;
+}
+
+.categories {
+    margin-left: 45px;
+}

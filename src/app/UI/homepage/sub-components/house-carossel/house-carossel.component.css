@@ -1,6 +1,6 @@
 .card {
     height: 60vh;
-    width: 60vw;
+    width: 65vw;
     background-color: blue;
     margin-left: 3pc;
     border-radius: 20px;
@@ -9,6 +9,6 @@
 
 .card h1 {
     font-size: 40px;
-    padding-top: 30px;
+    padding-top: 10%;
     color: white;
 }
