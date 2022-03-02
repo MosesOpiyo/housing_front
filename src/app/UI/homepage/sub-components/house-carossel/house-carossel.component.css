@@ -1,0 +1,14 @@
+.card {
+    height: 60vh;
+    width: 60vw;
+    background-color: blue;
+    margin-left: 3pc;
+    border-radius: 20px;
+    align-self: center;
+}
+
+.card h1 {
+    font-size: 40px;
+    padding-top: 30px;
+    color: white;
+}
