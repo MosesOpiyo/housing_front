@@ -13,6 +13,7 @@ import { HomepageComponent } from './UI/homepage/homepage.component';
 import { NavbarComponent } from './UI/navbar/navbar.component';
 import { HouseCarosselComponent } from './UI/homepage/sub-components/house-carossel/house-carossel.component';
 import { HousingOptionsComponent } from './UI/homepage/sub-components/housing-options/housing-options.component';
+import { HousingFooterComponent } from './UI/homepage/sub-components/housing-footer/housing-footer.component';
 
 
 @NgModule({
@@ -24,6 +25,7 @@ import { HousingOptionsComponent } from './UI/homepage/sub-components/housing-op
     NavbarComponent,
     HouseCarosselComponent,
     HousingOptionsComponent,
+    HousingFooterComponent,
    
   ],
   imports: [

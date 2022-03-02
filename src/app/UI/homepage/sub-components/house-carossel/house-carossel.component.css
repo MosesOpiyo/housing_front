@@ -1,7 +1,9 @@
 .card {
     height: 60vh;
     width: 65vw;
-    background-color: blue;
+    background-image: url("https://i.pinimg.com/originals/34/d7/a3/34d7a3bbe7ab056f213e66c7182dd57e.gif");
+    background-position: center;
+    background-size: cover;
     margin-left: 3pc;
     border-radius: 20px;
     align-self: center;
@@ -9,6 +11,7 @@
 
 .card h1 {
     font-size: 40px;
-    padding-top: 10%;
+    padding-top: 30%;
+    padding-right: 68%;
     color: white;
 }
