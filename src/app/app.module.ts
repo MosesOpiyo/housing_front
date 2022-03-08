@@ -14,6 +14,8 @@ import { NavbarComponent } from './UI/navbar/navbar.component';
 import { HouseCarosselComponent } from './UI/homepage/sub-components/house-carossel/house-carossel.component';
 import { HousingOptionsComponent } from './UI/homepage/sub-components/housing-options/housing-options.component';
 import { HousingFooterComponent } from './UI/homepage/sub-components/housing-footer/housing-footer.component';
+import { ProfileComponent } from './UI/profile/profile.component';
+import { RecommendedComponent } from './UI/homepage/sub-components/recommended/recommended.component';
 
 
 @NgModule({
@@ -26,6 +28,8 @@ import { HousingFooterComponent } from './UI/homepage/sub-components/housing-foo
     HouseCarosselComponent,
     HousingOptionsComponent,
     HousingFooterComponent,
+    ProfileComponent,
+    RecommendedComponent,
    
   ],
   imports: [
