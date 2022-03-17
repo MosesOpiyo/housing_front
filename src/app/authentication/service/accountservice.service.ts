@@ -16,7 +16,7 @@ export class AccountserviceService {
   register(credentials:any){
     this.http.post(`${environment.BASE_URL}users/register`,credentials).subscribe(response=>{
       this.snackbar.open(`Congratulations ${credentials.get('username')}, you have successfully registered`,"Thank you")
-      
+      this.route.navigate(['homepage'])
     },error => {
       this.snackbar.open(`There was a problem creating your account, please check your credentials and try again.`,"Dismiss",{duration:3000})
       alert(error)
@@ -28,6 +28,7 @@ export class AccountserviceService {
       sessionStorage.setItem('token', res['token'])
       this.auth.authentication(true)
       this.snackbar.open(`Welcome back`,"Dismiss")
+      this.route.navigate(['homepage'])
     },error=>{
       this.snackbar.open(`There was a problem logging you in, please check your credentials and try again.`,"Dismiss",{duration:3000})
       console.log(error)

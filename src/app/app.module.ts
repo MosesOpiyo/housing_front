@@ -16,6 +16,9 @@ import { HousingOptionsComponent } from './UI/homepage/sub-components/housing-op
 import { HousingFooterComponent } from './UI/homepage/sub-components/housing-footer/housing-footer.component';
 import { ProfileComponent } from './UI/profile/profile.component';
 import { RecommendedComponent } from './UI/homepage/sub-components/recommended/recommended.component';
+import { OptionsComponent } from './UI/options/options.component';
+import { AdminPanelComponent } from './UI/admin-panel/admin-panel.component';
+import { ProNavbarComponent } from './UI/pro-navbar/pro-navbar.component';
 
 
 @NgModule({
@@ -30,6 +33,9 @@ import { RecommendedComponent } from './UI/homepage/sub-components/recommended/r
     HousingFooterComponent,
     ProfileComponent,
     RecommendedComponent,
+    OptionsComponent,
+    AdminPanelComponent,
+    ProNavbarComponent,
    
   ],
   imports: [
