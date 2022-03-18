@@ -19,6 +19,7 @@ import { RecommendedComponent } from './UI/homepage/sub-components/recommended/r
 import { OptionsComponent } from './UI/options/options.component';
 import { AdminPanelComponent } from './UI/admin-panel/admin-panel.component';
 import { ProNavbarComponent } from './UI/pro-navbar/pro-navbar.component';
+import { ChatComponent } from './UI/admin-panel/chat/chat.component';
 
 
 @NgModule({
@@ -36,6 +37,7 @@ import { ProNavbarComponent } from './UI/pro-navbar/pro-navbar.component';
     OptionsComponent,
     AdminPanelComponent,
     ProNavbarComponent,
+    ChatComponent,
    
   ],
   imports: [
