@@ -20,6 +20,7 @@ import { OptionsComponent } from './UI/options/options.component';
 import { AdminPanelComponent } from './UI/admin-panel/admin-panel.component';
 import { ProNavbarComponent } from './UI/pro-navbar/pro-navbar.component';
 import { ChatComponent } from './UI/admin-panel/chat/chat.component';
+import { HousesComponent } from './UI/admin-panel/houses/houses.component';
 
 
 @NgModule({
@@ -38,6 +39,7 @@ import { ChatComponent } from './UI/admin-panel/chat/chat.component';
     AdminPanelComponent,
     ProNavbarComponent,
     ChatComponent,
+    HousesComponent,
    
   ],
   imports: [
