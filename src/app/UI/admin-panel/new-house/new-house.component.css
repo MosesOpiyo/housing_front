@@ -69,3 +69,28 @@ img {
 .overview-details {
     margin: 20px;
 }
+
+#house {
+    width: 70%;
+    height: 5vh;
+    margin-left: 15px;
+}
+
+#livingroom {
+    width: 70%;
+    height: 5vh;
+}
+
+#kitchen {
+    width: 70%;
+    height: 5vh;
+}
+
+input {
+    border: 2px solid rgb(159, 159, 255);
+    border-radius: 10px;
+}
+
+p {
+    margin-left: 15px;
+}

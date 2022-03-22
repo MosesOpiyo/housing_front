@@ -21,6 +21,8 @@ import { AdminPanelComponent } from './UI/admin-panel/admin-panel.component';
 import { ProNavbarComponent } from './UI/pro-navbar/pro-navbar.component';
 import { ChatComponent } from './UI/admin-panel/chat/chat.component';
 import { HousesComponent } from './UI/admin-panel/houses/houses.component';
+import { NewHouseComponent } from './UI/admin-panel/new-house/new-house.component';
+
 
 
 @NgModule({
@@ -40,6 +42,8 @@ import { HousesComponent } from './UI/admin-panel/houses/houses.component';
     ProNavbarComponent,
     ChatComponent,
     HousesComponent,
+    NewHouseComponent,
+   
    
   ],
   imports: [

@@ -1,6 +1,6 @@
 <app-pro-navbar></app-pro-navbar>
 <div class="row g-0">
-    <div class="col-lg-3">
+    <div class="col-lg-2">
         <div class="options">
             <div class="row" style="padding-bottom: 15px;">
                 <div class="col-lg-1">
@@ -58,26 +58,11 @@
             </div>
         </div>
     </div>
-    <div class="col-lg-7" style="margin-top: 1%;">
+    <div class="col-lg-6" style="margin-top: 1%;margin-left: 20px;">
         <h1>Main page</h1>
         <div class="dashboard-options">
-            <div class="row g-0" style="margin-bottom: 50px;">
-                <div class="col-lg-3">
-                    <div class="card" style="align-items: center;">
-                        <h2><b>Houses</b></h2>
-                        <h3><b>12</b></h3>
-                    </div>
-                </div>
-                <div class="col-lg-3">
-                    <div class="card" style="align-items: center;">
-                        <h2><b>Total Tenants</b></h2>
-                        <h3><b>50</b></h3>
-                    </div>
-                </div>
-
-            </div>
-            <div class="row g-0">
-                <div class="col-lg-8">
+            <div class="row g-0" style="width: 100%;margin: 0;">
+                <div class="col-lg-8" style="width: 100%;">
 
                     <h2 style="margin-left: 12px;">Houses</h2>
                     <div class="card" style="background-color:white;margin: 0;border: 0px;">
@@ -85,16 +70,12 @@
                             <div class="tenants-info">
                                 <div class="row" style="width: 100%;margin-right: 40px;margin-top: 20px;margin-bottom: 20px;">
                                     <div class="col">
-                                        <div class="card" style="width: 30pc;height: 20pc;background-color: white;">
-                                            <img src="https://images.pexels.com/photos/266812/pexels-photo-266812.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
-                                        </div>
-                                    </div>
-                                    <div class="col">
-                                        <div class="house-info">
-                                            <h1><b>Name of house</b></h1>
-                                            <h1>Location</h1>
-                                            <h1>Rent</h1>
-                                            <h1>Tenants</h1>
+                                        <div class="card" style="background-color: white;width: 15pc;height: 20pc;border: 0;">
+                                            <div class="info">
+                                                <img src="https://images.pexels.com/photos/266812/pexels-photo-266812.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+                                                <h2 style="color: black;padding-top: 15px;"><b>House name</b></h2>
+                                            </div>
+
                                         </div>
                                     </div>
                                 </div>
@@ -103,8 +84,47 @@
 
                     </div>
                 </div>
+
             </div>
         </div>
     </div>
-
+    <div class="col-lg-3">
+        <h2 style="margin-left: 50px;">
+            <B>Overview</B>
+        </h2>
+        <div class="card" style="margin-top: 7%;margin-left:10%;width: 30pc;">
+            <div class="overview-details">
+                <div class="row">
+                    <div class="col">
+                        <h2>
+                            <b>Houses:</b></h2>
+                        <h3>30</h3>
+                    </div>
+                    <div class="col">
+                        <h2><b>Tenants:</b></h2>
+                        <h3>100</h3>
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col">
+                        <h2><b>Vacate requests:</b></h2>
+                        <h3>2</h3>
+                    </div>
+                    <div class="col">
+                        <h2><b>Housing requests:</b></h2>
+                        <h3>2</h3>
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col">
+                        <h1 style="color: white;"><b>Total income:</b></h1>
+                        <h1 style="color:white;"><i class="fa fa-money" style="color: white;font-size: 30px;"></i><b>Ksh 100000000</b></h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <button routerLink="/new-house" class="btn btn-primary" style="margin-top: 7%;margin-left:10%;width: 30pc;">Add House</button>
+    </div>
 </div>

@@ -1,0 +1,209 @@
+<app-pro-navbar></app-pro-navbar>
+<div class="row g-0">
+    <div class="col-lg-2">
+        <div class="options">
+            <div class="row" style="padding-bottom: 15px;">
+                <div class="col-lg-1">
+                    <i class="material-icons">dashboard</i>
+                </div>
+                <div class="col">
+                    <a routerLink="/admin-panel">
+                        <h3><b>Dasboard</b></h3>
+                    </a>
+                </div>
+            </div>
+            <div class="row" style="padding-bottom: 15px;">
+                <div class="col-lg-1">
+                    <i class="material-icons">chat</i>
+                </div>
+                <div class="col">
+                    <a routerLink="/admin-chat">
+                        <h3><b>Chat</b></h3>
+                    </a>
+                </div>
+            </div>
+            <div class="row" style="padding-bottom: 15px;">
+                <div class="col-lg-1">
+                    <i style="color: blue;" class="material-icons">house</i>
+                </div>
+                <div class="col">
+                    <a routerLink="/admin-houses">
+                        <h3 style="color: blue;"><b>My houses</b></h3>
+                    </a>
+                </div>
+            </div>
+            <div class="row" style="padding-bottom: 15px;">
+                <div class="col-lg-1">
+                    <i class="material-icons">people</i>
+                </div>
+                <div class="col">
+                    <h3><b>Tenants</b></h3>
+                </div>
+            </div>
+            <div class="row" style="padding-bottom: 15px;">
+                <div class="col-lg-1">
+                    <i class="material-icons">plus_one</i>
+                </div>
+                <div class="col">
+                    <h3><b>Add potential tenant</b></h3>
+                </div>
+            </div>
+            <div class="row" style="padding-bottom: 15px;margin-top: 80%;">
+                <div class="col-lg-1">
+                    <i class="material-icons">logout</i>
+                </div>
+                <div class="col">
+                    <h3><b>Logout</b></h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-6" style="margin-top: 1%;margin-left: 20px;">
+        <h1>Housing page</h1>
+        <div class="dashboard-options">
+            <div class="row g-0" style="width: 100%;margin: 0;">
+                <div class="col-lg-8" style="width: 100%;">
+
+                    <h2 style="margin-left: 12px;">New House</h2>
+                    <div class="card" style="background-color:white;margin: 0;border: 0px;">
+                        <div class="card" style="width: 100%;background-color: white;border: 0ch;">
+                            <div class="tenants-info">
+                                <div class="row" style="width: 100%;margin-right: 40px;margin-top: 20px;margin-bottom: 20px;">
+                                    <form action="">
+                                        <label style="margin-left: 15px;" for="house"><b>House</b></label>
+                                        <br>
+                                        <input type="text" name="house" id="house">
+                                        <h2 style="color: black;margin-left: 15px;">Interior</h2>
+                                        <p>Submit images of sections of the house</p>
+                                        <br>
+                                        <div class="row">
+                                            <div class="col-lg-5">
+                                                <label for="livingroom"><b>Livingroom</b></label>
+                                                <br>
+                                                <input type="text" name="livingroom" id="livingroom">
+                                            </div>
+                                            <div class="col-lg-5">
+                                                <label for="kitchen"><b>Kitchen</b></label>
+                                                <br>
+                                                <input type="text" name="kitchen" id="kitchen">
+
+                                            </div>
+
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-lg-5">
+                                                <label for="livingroom"><b>Sanitary room</b></label>
+                                                <br>
+                                                <input type="text" name="Sanitary room" id="livingroom">
+                                            </div>
+                                            <div class="col-lg-5">
+                                                <label for="kitchen"><b>Bathroom</b></label>
+                                                <br>
+                                                <input type="text" name="Bathroom" id="kitchen">
+
+                                            </div>
+
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-lg-5">
+                                                <label for="livingroom"><b>bedroom</b></label>
+                                                <br>
+                                                <input type="text" name="bedroom" id="livingroom">
+                                            </div>
+
+                                        </div>
+                                        <br>
+                                        <hr style="width: 72%;">
+                                        <h2 style="color: black;margin-left: 15px;">Details</h2>
+                                        <p>Please be as accurate as much as yuod can and submit truthful details</p>
+                                        <br>
+                                        <div class="row">
+                                            <br>
+                                            <div class="col-lg-5">
+                                                <label for="livingroom"><b>Name</b></label>
+                                                <br>
+                                                <input type="text" name="house-name" id="livingroom">
+                                            </div>
+                                            <div class="col-lg-5">
+                                                <label for="kitchen"><b>Address</b></label>
+                                                <br>
+                                                <input type="text" name="house-address" id="kitchen">
+
+                                            </div>
+
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-lg-5">
+                                                <label for="livingroom"><b>Type</b></label>
+                                                <br>
+                                                <input type="text" name="house-type" id="livingroom">
+                                            </div>
+                                            <div class="col-lg-5">
+                                                <label for="kitchen"><b>Number of Bedrooms</b></label>
+                                                <br>
+                                                <input type="text" name="number-of-bedrooms" id="kitchen">
+
+                                            </div>
+
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-lg-5">
+                                                <label for="livingroom"><b>Avaialble spaces</b></label>
+                                                <br>
+                                                <input type="text" name="avaialble-spaces" id="livingroom">
+                                            </div>
+
+
+                                        </div>
+                                        <hr style="width: 72%;">
+                                        <button style="margin-left: 15px;" class="btn btn-success">Add house</button>
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-3">
+        <h2 style="margin-left: 50px;">
+            <B>Overview</B>
+        </h2>
+        <div class="card" style="margin-top: 7%;margin-left:10%;width: 30pc;">
+            <div class="overview-details">
+                <div class="row">
+                    <div class="col">
+                        <h2>
+                            <b>Houses:</b></h2>
+                        <h3>30</h3>
+                    </div>
+                    <div class="col">
+                        <h2><b>Tenants:</b></h2>
+                        <h3>100</h3>
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col">
+                        <h2><b>Vacate requests:</b></h2>
+                        <h3>2</h3>
+                    </div>
+                    <div class="col">
+                        <h2><b>Housing requests:</b></h2>
+                        <h3>2</h3>
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col">
+                        <h1 style="color: white;"><b>Total income:</b></h1>
+                        <h1 style="color:white;"><i class="fa fa-money" style="color: white;font-size: 30px;"></i><b>Ksh 100000000</b></h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
