@@ -1,1 +1,119 @@
-<p>house-clients works!</p>
+<app-pro-navbar></app-pro-navbar>
+<div class="row g-0">
+    <div class="col-lg-2">
+        <div class="options">
+            <div class="row" style="padding-bottom: 15px;">
+                <div class="col-lg-1">
+                    <i class="material-icons">dashboard</i>
+                </div>
+                <div class="col">
+                    <a routerLink="/dashboard">
+                        <h3><b>Dasboard</b></h3>
+                    </a>
+                </div>
+            </div>
+            <div class="row" style="padding-bottom: 15px;">
+                <div class="col-lg-1">
+                    <i class="material-icons">house</i>
+                </div>
+                <div class="col">
+                    <a routerLink="/sell-a-house">
+                        <h3><b>Available houses</b></h3>
+                    </a>
+                </div>
+            </div>
+            <div class="row" style="padding-bottom: 15px;">
+                <div class="col-lg-1">
+                    <i style="color: blue;" class="material-icons">people</i>
+                </div>
+                <div class="col">
+                    <a routerLink="/clients">
+                        <h3 style="color: blue;"><b>Clients</b></h3>
+                    </a>
+                </div>
+            </div>
+            <div class="row" style="padding-bottom: 15px;margin-top: 80%;">
+                <div class="col-lg-1">
+                    <i class="material-icons">logout</i>
+                </div>
+                <div class="col">
+                    <button style="border: none;background-color: transparent;" routerLink="" (click)="logout()"><b>Logout</b></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-6" style="margin-top: 1%;margin-left: 10px;">
+        <h1 style="margin-left: 20px;">Main page</h1>
+        <div class="dashboard-options">
+
+            <div class="row g-0" style="margin-left: 20px;">
+                <h2>Tenants check</h2>
+                <div class="card" style="background-color:white;margin: 0;border: 0px;">
+                    <div class="card" style="width: 100%;background-color: white;">
+                        <div class="tenants-info">
+                            <div class="row" style="margin-left: 5%;width: 100%;margin-right: 40px;margin-top: 20px;margin-bottom: 20px;">
+                                <div class="col">
+                                    <div class="row">
+                                        <div class="col-lg-3" style="margin: 0;padding-top: 10px;">
+                                            <i class="fa fa-user" style="font-size: 30px;color: blue;"></i>
+                                        </div>
+                                        <div class="col-lg-3" style="padding-top: 5px;">
+                                            <h4 style="margin: 0;"><b>Tenant</b></h4>
+                                            <h4><b>Email</b></h4>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-3">
+                                    <h4 style="margin-top: 15px;"><b>House</b></h4>
+                                </div>
+                                <div class="col">
+                                    <h4 style="margin-top: 15px;"><b>House no.</b></h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-3">
+        <h2 style="margin-left: 60px;">
+            <B>Overview</B>
+        </h2>
+        <div class="card" style="margin-top: 7%;margin-left:12%;width: 30pc;">
+            <div class="overview-details">
+                <div class="row">
+                    <div class="col">
+                        <h2>
+                            <b>Houses:</b></h2>
+                        <h3>30</h3>
+                    </div>
+                    <div class="col">
+                        <h2><b>Tenants:</b></h2>
+                        <h3>100</h3>
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col">
+                        <h2><b>Vacate requests:</b></h2>
+                        <h3>2</h3>
+                    </div>
+                    <div class="col">
+                        <h2><b>Housing requests:</b></h2>
+                        <h3>2</h3>
+                    </div>
+                </div>
+                <hr>
+                <div class="row">
+                    <div class="col">
+                        <h1 style="color: white;"><b>Total income:</b></h1>
+                        <h1 style="color:white;"><i class="fa fa-money" style="color: white;font-size: 30px;"></i><b>Ksh 100000000</b></h1>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>

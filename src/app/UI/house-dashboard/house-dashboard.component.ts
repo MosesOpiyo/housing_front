@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { AccountserviceService } from 'src/app/authentication/service/accountservice.service';
 
 @Component({
   selector: 'app-house-dashboard',
@@ -7,7 +8,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HouseDashboardComponent implements OnInit {
 
-  constructor() { }
+  constructor(private accountservice:AccountserviceService) { }
+
+  logout(){
+    this.accountservice.logout()
+  }
 
   ngOnInit(): void {
   }
