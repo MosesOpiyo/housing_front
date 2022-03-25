@@ -4,21 +4,21 @@
         <div class="options">
             <div class="row" style="padding-bottom: 15px;">
                 <div class="col-lg-1">
-                    <i class="material-icons">dashboard</i>
+                    <i style="color: blue;" class="material-icons">dashboard</i>
                 </div>
                 <div class="col">
-                    <a routerLink="/dashboard">
-                        <h3><b>Dasboard</b></h3>
+                    <a routerLink="/admin-panel">
+                        <h3 style="color: blue;"><b>Dasboard</b></h3>
                     </a>
                 </div>
             </div>
             <div class="row" style="padding-bottom: 15px;">
                 <div class="col-lg-1">
-                    <i style="color: blue;" class="material-icons">house</i>
+                    <i class="material-icons">house</i>
                 </div>
                 <div class="col">
                     <a routerLink="/sell-a-houses">
-                        <h3 style="color: blue;"><b>Available houses</b></h3>
+                        <h3><b>Available houses</b></h3>
                     </a>
                 </div>
             </div>
@@ -42,45 +42,46 @@
             </div>
         </div>
     </div>
-    <div class="col-lg-6" style="margin-top: 1%;margin-left: 20px;">
-        <h1>Main page</h1>
+    <div class="col-lg-6" style="margin-top: 1%;margin-left: 10px;">
+        <h1 style="margin-left: 20px;">Main page</h1>
         <div class="dashboard-options">
-            <div class="row g-0" style="width: 100%;margin: 0;">
-                <div class="col-lg-8" style="width: 100%;">
 
-                    <h2 style="margin-left: 12px;">Houses</h2>
-                    <div class="card" style="background-color:white;margin: 0;border: 0px;">
-                        <div class="card" style="width: 100%;background-color: white;border: 0ch;">
-                            <div class="tenants-info">
-                                <div class="row" style="width: 100%;margin-right: 40px;margin-top: 20px;margin-bottom: 20px;">
-                                    <div class="col">
-                                        <div class="card" style="background-color: white;width: 15pc;height: 20pc;border: 0;">
-                                            <div class="info">
-                                                <div class="house">
-                                                    <a routerLink="/house">
-                                                        <img src="https://images.pexels.com/photos/266812/pexels-photo-266812.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
-                                                        <h2 style="color: black;padding-top: 15px;"><b>House name</b></h2>
-                                                    </a>
-                                                </div>
-                                            </div>
-
+            <div class="row g-0" style="margin-left: 20px;">
+                <h2>Rent clearance</h2>
+                <div class="card" style="background-color:white;margin: 0;border: 0px;">
+                    <div class="card" style="width: 100%;background-color: white;">
+                        <div class="tenants-info">
+                            <div class="row" style="margin-left: 5%;width: 100%;margin-right: 40px;margin-top: 20px;margin-bottom: 20px;">
+                                <div class="col">
+                                    <div class="row">
+                                        <div class="col-lg-3" style="margin: 0;padding-top: 10px;">
+                                            <i class="fa fa-user" style="font-size: 30px;color: blue;"></i>
+                                        </div>
+                                        <div class="col">
+                                            <h4 style="margin-top: 15px;"><b>Tenant</b></h4>
                                         </div>
                                     </div>
                                 </div>
+                                <div class="col">
+                                    <h4 style="margin-top: 15px;"><b>10000 Ksh</b></h4>
+                                </div>
+                                <div class="col">
+                                    <a class="btn btn-outline-success" style="color: white;width: 90px;"><i style="color: green;padding-left: 20px;margin: 0;" class="far fa-check-circle"></i></a>
+                                    <a class="btn btn-outline-danger" style="color: white;width: 90px;"><i style="color: rgb(255, 0, 0);padding-left: 20px;margin: 0;font-size: 20px;">&#10006;</i></a>
+                                </div>
                             </div>
                         </div>
-
                     </div>
-                </div>
 
+                </div>
             </div>
         </div>
     </div>
     <div class="col-lg-3">
-        <h2 style="margin-left: 50px;">
+        <h2 style="margin-left: 60px;">
             <B>Overview</B>
         </h2>
-        <div class="card" style="margin-top: 7%;margin-left:10%;width: 30pc;">
+        <div class="card" style="margin-top: 7%;margin-left:12%;width: 30pc;">
             <div class="overview-details">
                 <div class="row">
                     <div class="col">
@@ -89,12 +90,16 @@
                         <h3>30</h3>
                     </div>
                     <div class="col">
-                        <h2><b>Clients:</b></h2>
+                        <h2><b>Tenants:</b></h2>
                         <h3>100</h3>
                     </div>
                 </div>
                 <hr>
                 <div class="row">
+                    <div class="col">
+                        <h2><b>Vacate requests:</b></h2>
+                        <h3>2</h3>
+                    </div>
                     <div class="col">
                         <h2><b>Housing requests:</b></h2>
                         <h3>2</h3>
@@ -109,6 +114,6 @@
                 </div>
             </div>
         </div>
-        <button routerLink="/new-house" class="btn btn-primary" style="margin-top: 7%;margin-left:10%;width: 30pc;">Add House</button>
     </div>
+
 </div>
