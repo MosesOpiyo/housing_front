@@ -6,6 +6,7 @@ import { AdminPanelComponent } from './UI/admin-panel/admin-panel.component';
 import { ChatComponent } from './UI/admin-panel/chat/chat.component';
 import { HousesComponent } from './UI/admin-panel/houses/houses.component';
 import { NewHouseComponent } from './UI/admin-panel/new-house/new-house.component';
+import { TenantsComponent } from './UI/admin-panel/tenants/tenants.component';
 import { HomepageComponent } from './UI/homepage/homepage.component';
 import { OptionsComponent } from './UI/options/options.component';
 import { ProfileComponent } from './UI/profile/profile.component';
@@ -19,7 +20,8 @@ const routes: Routes = [
   {path:'admin-panel',component:AdminPanelComponent},
   {path:'admin-chat',component:ChatComponent},
   {path:'admin-houses',component:HousesComponent},
-  {path:'new-house',component:NewHouseComponent}
+  {path:'new-house',component:NewHouseComponent},
+  {path:'admin-tenants',component:TenantsComponent}
 ];
 
 @NgModule({

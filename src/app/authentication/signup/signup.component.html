@@ -20,14 +20,24 @@
                 <h3 style="margin: 20px;color: white;">Housing</h3>
                 <p style="margin: 20px;color: white;padding-top: 5px;">Lorem Ipsum is simply dummy text of the printing <br> and typesetting industry. Lorem Ipsum has been the industry's</p>
             </div>
-            <div class="col-lg-3" style="margin-left: 30px;padding-top: 60px;">
+            <div class="col-lg-3" style="margin-left: 30px;">
                 <h2 class="clo-lg-5 text-center py-5">Sign Up</h2>
                 <p class="clo-lg-5 text-center py-2 ">Have an account? <a routerLink="">Login</a></p>
-                <p class="clo-lg-5 text-center py-2 ">Welcome back</p>
+                <p class="clo-lg-5 text-center py-2 ">Takes less than one minute</p>
                 <form #registerForm='ngForm' (ngSubmit)="signUp()">
+                    <div class="row g-4" style="margin-bottom: 20px;">
+                        <div class="col-lg-6">
+                            <input style="width: 100%;" type="text" name="first-name" id="first-name" placeholder="First name">
+                        </div>
+                        <div class="col-lg-6">
+                            <input style="width: 100%;" type="text" name="last-name" id="last-name" placeholder="Last name">
+                        </div>
+                    </div>
                     <input type="text" id="username" [(ngModel)]="username" class="form-control" name="username" placeholder="username">
                     <br>
                     <input type="email" id="email" [(ngModel)]="email" class="form-control" name="email" placeholder="email">
+                    <br>
+                    <input type="password" id="password " [(ngModel)]="password" class="form-control" name="password" placeholder="password">
                     <br>
                     <input type="password" id="password " [(ngModel)]="password" class="form-control" name="password" placeholder="password">
                     <br>

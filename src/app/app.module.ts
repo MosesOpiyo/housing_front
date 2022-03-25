@@ -22,6 +22,7 @@ import { ProNavbarComponent } from './UI/pro-navbar/pro-navbar.component';
 import { ChatComponent } from './UI/admin-panel/chat/chat.component';
 import { HousesComponent } from './UI/admin-panel/houses/houses.component';
 import { NewHouseComponent } from './UI/admin-panel/new-house/new-house.component';
+import { TenantsComponent } from './UI/admin-panel/tenants/tenants.component';
 
 
 
@@ -43,6 +44,7 @@ import { NewHouseComponent } from './UI/admin-panel/new-house/new-house.componen
     ChatComponent,
     HousesComponent,
     NewHouseComponent,
+    TenantsComponent,
    
    
   ],
