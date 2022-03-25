@@ -1,0 +1,71 @@
+.details {
+    padding-left: 80px;
+    padding-top: 25px;
+}
+
+details h3 {
+    margin: 0;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+.row {
+    width: auto;
+    margin: 0;
+}
+
+h1 {
+    margin-left: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(68, 68, 68);
+}
+
+i {
+    font-size: 25px;
+    padding-right: 40px;
+    color: gray;
+}
+
+.options {
+    padding-left: 70px;
+    padding-top: 30px;
+}
+
+.card {
+    background-color: blue;
+    border-radius: 20px;
+    margin-right: 40px;
+}
+
+.card h2 {
+    color: white;
+    margin: 0;
+}
+
+.card h3 {
+    color: white;
+}
+
+.house-info {
+    margin-top: 20px;
+}
+
+.house-info h3 {
+    color: black;
+}
+
+img {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+}
+
+.overview-details {
+    margin: 20px;
+}

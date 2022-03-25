@@ -23,6 +23,8 @@ import { ChatComponent } from './UI/admin-panel/chat/chat.component';
 import { HousesComponent } from './UI/admin-panel/houses/houses.component';
 import { NewHouseComponent } from './UI/admin-panel/new-house/new-house.component';
 import { TenantsComponent } from './UI/admin-panel/tenants/tenants.component';
+import { SellHouseComponent } from './UI/sell-house/sell-house.component';
+import { SpecificHouseComponent } from './UI/specific-house/specific-house.component';
 
 
 
@@ -45,6 +47,8 @@ import { TenantsComponent } from './UI/admin-panel/tenants/tenants.component';
     HousesComponent,
     NewHouseComponent,
     TenantsComponent,
+    SellHouseComponent,
+    SpecificHouseComponent,
    
    
   ],
