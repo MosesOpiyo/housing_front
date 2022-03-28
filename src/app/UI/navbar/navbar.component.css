@@ -8,3 +8,11 @@ nav {
 input {
     width: 20pc;
 }
+
+ul {
+    margin-left: 60%;
+}
+
+* {
+    position: sticky;
+}
