@@ -10,6 +10,7 @@ import { TenantsComponent } from './UI/admin-panel/tenants/tenants.component';
 import { HomepageComponent } from './UI/homepage/homepage.component';
 import { HouseClientsComponent } from './UI/house-clients/house-clients.component';
 import { HouseDashboardComponent } from './UI/house-dashboard/house-dashboard.component';
+import { HouseComponent } from './UI/house/house.component';
 import { OptionsComponent } from './UI/options/options.component';
 import { ProfileComponent } from './UI/profile/profile.component';
 import { SellHouseComponent } from './UI/sell-house/sell-house.component';
@@ -29,7 +30,8 @@ const routes: Routes = [
   {path:'admin-tenants',component:TenantsComponent},
   {path:'sell-a-house',component:SellHouseComponent},
   {path:'house',component:SpecificHouseComponent},
-  {path:'clients',component:HouseClientsComponent}
+  {path:'clients',component:HouseClientsComponent},
+  {path:'potential-house',component:HouseComponent}
 ];
 
 @NgModule({

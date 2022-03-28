@@ -40,3 +40,8 @@ button {
 .col-lg-2 {
     margin-bottom: 20px;
 }
+
+a {
+    text-decoration: none;
+    color: black;
+}

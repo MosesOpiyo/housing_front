@@ -1,0 +1,13 @@
+.container {
+    margin-top: 3%;
+}
+
+.card {
+    border: 0;
+    height: 70vh;
+    width: 50%;
+}
+
+.description {
+    margin-top: 3%;
+}

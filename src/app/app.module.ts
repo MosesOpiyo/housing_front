@@ -27,6 +27,7 @@ import { SellHouseComponent } from './UI/sell-house/sell-house.component';
 import { SpecificHouseComponent } from './UI/specific-house/specific-house.component';
 import { HouseClientsComponent } from './UI/house-clients/house-clients.component';
 import { HouseDashboardComponent } from './UI/house-dashboard/house-dashboard.component';
+import { HouseComponent } from './UI/house/house.component';
 
 
 
@@ -53,6 +54,7 @@ import { HouseDashboardComponent } from './UI/house-dashboard/house-dashboard.co
     SpecificHouseComponent,
     HouseClientsComponent,
     HouseDashboardComponent,
+    HouseComponent,
    
    
   ],
