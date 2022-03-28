@@ -69,3 +69,8 @@ img {
 .overview-details {
     margin: 20px;
 }
+
+hr {
+    margin-top: 20px;
+    width: 80%;
+}

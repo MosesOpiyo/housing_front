@@ -25,6 +25,8 @@ import { NewHouseComponent } from './UI/admin-panel/new-house/new-house.componen
 import { TenantsComponent } from './UI/admin-panel/tenants/tenants.component';
 import { SellHouseComponent } from './UI/sell-house/sell-house.component';
 import { SpecificHouseComponent } from './UI/specific-house/specific-house.component';
+import { HouseClientsComponent } from './UI/house-clients/house-clients.component';
+import { HouseDashboardComponent } from './UI/house-dashboard/house-dashboard.component';
 
 
 
@@ -49,6 +51,8 @@ import { SpecificHouseComponent } from './UI/specific-house/specific-house.compo
     TenantsComponent,
     SellHouseComponent,
     SpecificHouseComponent,
+    HouseClientsComponent,
+    HouseDashboardComponent,
    
    
   ],

@@ -34,4 +34,8 @@ export class AccountserviceService {
       console.log(error)
     })
   }
+  logout(){
+    sessionStorage.removeItem('token')
+    this.auth.authentication(false)
+  }
 }
