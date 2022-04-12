@@ -28,6 +28,7 @@ import { SpecificHouseComponent } from './UI/specific-house/specific-house.compo
 import { HouseClientsComponent } from './UI/house-clients/house-clients.component';
 import { HouseDashboardComponent } from './UI/house-dashboard/house-dashboard.component';
 import { HouseComponent } from './UI/house/house.component';
+import { SimilarHousingComponent } from './UI/similar-housing/similar-housing.component';
 
 
 
@@ -55,6 +56,7 @@ import { HouseComponent } from './UI/house/house.component';
     HouseClientsComponent,
     HouseDashboardComponent,
     HouseComponent,
+    SimilarHousingComponent,
    
    
   ],
